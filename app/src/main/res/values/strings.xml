@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">reminderapp</string>
+    <string name="backward"><![CDATA[<]]></string>
+    <string name="front"><![CDATA[>]]></string>
+</resources>

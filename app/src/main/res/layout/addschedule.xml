@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/pm"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="81dp"
+        android:text="PM"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/am"
+        app:layout_constraintTop_toBottomOf="@+id/thursday" />
+
+    <Button
+        android:id="@+id/sunday"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#3F51B5"
+        android:text="S"
+        app:layout_constraintStart_toEndOf="@+id/saturday"
+        app:layout_constraintTop_toBottomOf="@+id/thursday" />
+
+    <Button
+        android:id="@+id/saturday"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#3F51B5"
+        android:text="S"
+        app:layout_constraintStart_toEndOf="@+id/friday"
+        app:layout_constraintTop_toBottomOf="@+id/wednesday" />
+
+    <Button
+        android:id="@+id/friday"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#3F51B5"
+        android:text="F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuesday" />
+
+    <Button
+        android:id="@+id/thursday"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#3F51B5"
+        android:text="T"
+        app:layout_constraintStart_toEndOf="@+id/wednesday"
+        app:layout_constraintTop_toBottomOf="@+id/schedulename" />
+
+    <Button
+        android:id="@+id/wednesday"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#3F51B5"
+        android:text="w"
+        app:layout_constraintStart_toEndOf="@+id/tuesday"
+        app:layout_constraintTop_toBottomOf="@+id/schedulename" />
+
+    <Button
+        android:id="@+id/tuesday"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#3F51B5"
+        android:text="T"
+        app:layout_constraintStart_toEndOf="@+id/monday"
+        app:layout_constraintTop_toBottomOf="@+id/schedulename" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="146dp"
+        android:text="Add Notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/schedulename"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="13dp"
+        android:ems="10"
+        android:hint="Insert Text Here"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/monday"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#3F51B5"
+        android:text="M"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/schedulename" />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Accept"
+        android:textColor="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/cancel"
+        app:layout_constraintTop_toBottomOf="@+id/picksound" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Cancel"
+        android:textColor="#FF0505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:text="Time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuesday" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="52dp"
+        android:text="Alarm Sound"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/picksound"
+        android:layout_width="195dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:text="pick sound file"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/timestr" />
+
+    <EditText
+        android:id="@+id/timestr"
+        android:layout_width="124dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/sunday"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/am"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
+        android:text="AM"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/timestr"
+        app:layout_constraintTop_toBottomOf="@+id/sunday" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

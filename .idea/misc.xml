@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/drawable/roundedbutton.xml" value="0.2203125" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/drawable/roundedbuttonred.xml" value="0.2203125" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/activity_notifpopup.xml" value="0.5" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/activity_persistence_notification.xml" value="0.25" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/activity_schedule.xml" value="0.25" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/activity_schedulenotif.xml" value="0.34833659491193736" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/addschedule.xml" value="0.67" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/calendar_cell.xml" value="0.1" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/event_cell.xml" value="0.1" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/itemlists.xml" value="0.25" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/layout.xml" value="0.1" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/main.xml" value="0.1" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/popup.xml" value="0.33" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/radiopick.xml" value="0.22" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/surprise.xml" value="0.25" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/layout/viewsched.xml" value="0.33" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/x/AndroidStudioProjects/reminderapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="androidx.annotation.RequiresApi" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
